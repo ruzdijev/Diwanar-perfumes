@@ -1,3 +1,5 @@
+// tailwind.config.ts
+
 import type {Config} from 'tailwindcss';
 
 export default {
@@ -10,7 +12,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'radial-gradient': 'radial-gradient(circle at 50% 0, rgba(212, 175, 55, 0.4), transparent 70%)',
+        'radial-gradient': 'radial-gradient(ellipse 40% 50% at 50% 0%, rgba(212, 175, 55, 0.3), transparent 80%)',
       },
       fontFamily: {
         body: ['Inter', 'sans-serif'],
