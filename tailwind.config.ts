@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'radial-gradient': 'radial-gradient(circle at 50% 0, var(--tw-gradient-stops))',
+      },
       fontFamily: {
         body: ['Inter', 'sans-serif'],
         headline: ['Josefin Sans', 'sans-serif'],
