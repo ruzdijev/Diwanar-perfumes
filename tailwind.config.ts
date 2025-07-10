@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'radial-gradient': 'radial-gradient(circle at 50% 0, var(--tw-gradient-stops))',
+        'radial-gradient': 'radial-gradient(circle at 50% 0, rgba(212, 175, 55, 0.4), transparent 70%)',
       },
       fontFamily: {
         body: ['Inter', 'sans-serif'],

@@ -37,9 +37,9 @@ const PerfumeHero = ({ perfumes }: PerfumeHeroProps) => {
     const isCenter = index === Math.floor(displayCount / 2);
     const offset = index - Math.floor(displayCount / 2);
     
-    const scale = isCenter ? 1.2 : 0.8;
+    const scale = isCenter ? 1.0 : 0.7; // smaller images
     const zIndex = isCenter ? 10 : 1;
-    const xOffset = offset * 20;
+    const xOffset = offset * 25; // increased spacing
 
     return {
         transform: `translateX(${xOffset}%) scale(${scale})`,
@@ -53,9 +53,9 @@ const PerfumeHero = ({ perfumes }: PerfumeHeroProps) => {
 
   return (
     <section className="relative w-full bg-background py-20 md:py-32 overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-radial-gradient from-yellow-200/40 to-transparent pointer-events-none"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-radial-gradient pointer-events-none"></div>
       <div 
-        className="relative h-[600px] w-full"
+        className="relative h-[500px] w-full" // smaller height
       >
         <div className="absolute inset-0 flex items-center justify-center">
             {getVisiblePerfumes().map((perfume, index) => (
@@ -63,7 +63,7 @@ const PerfumeHero = ({ perfumes }: PerfumeHeroProps) => {
                 key={perfume.id}
                 className="absolute"
                 style={{
-                  width: '20%',
+                  width: '15%', // smaller width
                   ...getPerfumePosition(index),
                 }}
             >
@@ -71,8 +71,8 @@ const PerfumeHero = ({ perfumes }: PerfumeHeroProps) => {
                 <Image
                     src={perfume.image}
                     alt={perfume.name}
-                    width={300}
-                    height={500}
+                    width={200} // smaller image
+                    height={400} // smaller image
                     data-ai-hint="perfume bottle"
                     className="mx-auto transition-transform duration-500 ease-in-out group-hover:scale-105"
                 />

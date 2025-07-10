@@ -28,8 +28,8 @@ const perfumes: Perfume[] = [
       base: 'Amber, Praline',
     },
     price: { GBP: 180, EUR: 210 },
-    image: 'https://placehold.co/300x500.png',
-    artisticImage: 'https://placehold.co/1200x800.png',
+    image: '/images/parfume.webp',
+    artisticImage: '/images/parfume.webp',
   },
   {
     id: '2',
@@ -42,8 +42,8 @@ const perfumes: Perfume[] = [
       base: 'Patchouli, Musk',
     },
     price: { GBP: 165, EUR: 195 },
-    image: 'https://placehold.co/300x500.png',
-    artisticImage: 'https://placehold.co/1200x800.png',
+    image: '/images/parfume.webp',
+    artisticImage: '/images/parfume.webp',
   },
   {
     id: '3',
@@ -56,8 +56,8 @@ const perfumes: Perfume[] = [
       base: 'Cedarwood, Ambergris',
     },
     price: { GBP: 150, EUR: 175 },
-    image: 'https://placehold.co/300x500.png',
-    artisticImage: 'https://placehold.co/1200x800.png',
+    image: '/images/parfume.webp',
+    artisticImage: '/images/parfume.webp',
   },
   {
     id: '4',
@@ -70,8 +70,8 @@ const perfumes: Perfume[] = [
       base: 'Sandalwood, Balsam Fir',
     },
     price: { GBP: 170, EUR: 200 },
-    image: 'https://placehold.co/300x500.png',
-    artisticImage: 'https://placehold.co/1200x800.png',
+    image: '/images/parfume.webp',
+    artisticImage: '/images/parfume.webp',
   },
   {
     id: '5',
@@ -84,8 +84,8 @@ const perfumes: Perfume[] = [
       base: 'Vanilla, Tonka Bean',
     },
     price: { GBP: 185, EUR: 215 },
-    image: 'https://placehold.co/300x500.png',
-    artisticImage: 'https://placehold.co/1200x800.png',
+    image: '/images/parfume.webp',
+    artisticImage: '/images/parfume.webp',
   },
   {
     id: '6',
@@ -98,8 +98,8 @@ const perfumes: Perfume[] = [
       base: 'White Musk, Iso E Super',
     },
     price: { GBP: 190, EUR: 220 },
-    image: 'https://placehold.co/300x500.png',
-    artisticImage: 'https://placehold.co/1200x800.png',
+    image: '/images/parfume.webp',
+    artisticImage: '/images/parfume.webp',
   },
   {
     id: '7',
@@ -112,8 +112,8 @@ const perfumes: Perfume[] = [
       base: 'Vetiver, Oakwood',
     },
     price: { GBP: 160, EUR: 190 },
-    image: 'https://placehold.co/300x500.png',
-    artisticImage: 'https://placehold.co/1200x800.png',
+    image: '/images/parfume.webp',
+    artisticImage: '/images/parfume.webp',
   },
   {
     id: '8',
@@ -126,8 +126,8 @@ const perfumes: Perfume[] = [
       base: 'Orange Blossom, Sandalwood',
     },
     price: { GBP: 155, EUR: 180 },
-    image: 'https://placehold.co/300x500.png',
-    artisticImage: 'https://placehold.co/1200x800.png',
+    image: '/images/parfume.webp',
+    artisticImage: '/images/parfume.webp',
   },
   {
     id: '9',
@@ -140,8 +140,8 @@ const perfumes: Perfume[] = [
       base: 'Tonka Bean, Vanilla',
     },
     price: { GBP: 175, EUR: 205 },
-    image: 'https://placehold.co/300x500.png',
-    artisticImage: 'https://placehold.co/1200x800.png',
+    image: '/images/parfume.webp',
+    artisticImage: '/images/parfume.webp',
   },
 ];
 
